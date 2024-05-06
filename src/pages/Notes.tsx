@@ -404,7 +404,7 @@ const Notes: React.FC = () => {
 
 
         <div className={`rounded-lg p-4 shadow-md ${getColorClass(2)}`}>
-        <p class="text-black">
+        <p className="text-black">
           <h2 className="text-xl font-bold mb-2">Week 9</h2>
           Spring Break - No Class
           <p>“It is the working man who is the happy man. It is the idle man who is the miserable man” Benjamin Franklin</p>
