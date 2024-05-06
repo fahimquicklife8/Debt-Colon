@@ -1,0 +1,64 @@
+:root {
+  /* Define default colors */
+  --background-color: #1a1917;
+  --text-color: #90eee4;
+}
+
+@media (prefers-color-scheme: dark) {
+  /* Dark mode styles */
+  :root {
+    --background-color: #2d2929;
+    --text-color: #ad5555;
+  }
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: var(--background-color); /* Apply background color based on theme */
+  color: var(--text-color); /* Apply text color based on theme */
+}
+
+/* do not change anything above */
+
+
+/* Button */
+.button {
+  color: #cec7b8;
+  padding: 0.5em 1em; /* Add padding to create space around the text */
+  border: 2px solid transparent; /* Set initial border to transparent */
+  transition: border-color 0.3s ease; /* Add transition effect for border color */
+}
+.button:hover {
+  border-color: #cec7b8; /* Change border color on hover */
+}
+
+earth-theme {
+     color: #a6961e;
+
+}
+aqua-theme {
+  color: aqua;
+}
+
+
+
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Set the height of the container to full viewport height */
+}
+
+.centered-text {
+  text-align: center;
+}
+
+.big-text {
+  font-size: 24px; /* Adjust the font size as needed */
+}
+
+
+
